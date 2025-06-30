@@ -524,55 +524,109 @@ Create a function increaseCount() that adds 1 to count.
 Call the function three times and show the final value of count.
 
 */
-let count = 0;
-function increaseCount(){}
+// let count = 0;
+// function increaseCount(){count = count + 1;}
+// increaseCount();
+// increaseCount();
+// increaseCount();
+// console.log(count)
 
-/* ========== Question 1 ==========
+/* ========== Question 33 ==========
+Q:   Greet User
+Question:
+Create a function greetUser(name) that takes a name as a parameter and logs:
+Hello, [name]!
+Example Call:
+greetUser("Azizullah");
+*/
+// function greetUser(name){console.log('Hello ',name)}
+// greetUser('Aziz')
+
+/* ========== Question 33 ==========
+Q: Add Two Numbers
+Question:
+Create a function addNumbers(a, b) that returns the sum of two numbers.
+Example Call:
+console.log(addNumbers(5, 10))
+*/
+// function addNumbers(a,b){let bv = a + b;
+//    return bv;
+// }
+// let result = addNumbers(3,8);
+// console.log(result)
+
+
+/* ========== Question 34 ==========
 Q:  
+Create a function square(num) that returns the square of a number.
+Example Call:
+console.log(square(4)); /
 */
+// function square(num){let result = num*num;
+//    return result;
+// }
+// let finalResult = square(6);
+// console.log(finalResult)
 
 
 
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 35 ==========
+Q: call one function inside another function 
 
 */
+// function add(a,b){let result = a + b;
+//    return result;
+// }
+// function subtract(a,b,c){add(a,b);
+//    let subtr = add(a,b) - c;
+//    return subtr;
+// }
+// function multiplication(a,b,c,d){subtract(a,b,c);
+//    let multipli = subtract(a,b,c) * d;
+//    return multipli;
+// }
 
+// function division(a,b,c,d,e){multiplication(a,b,c,d);
+//    let divis = multiplication(a,b,c,d)/ e;
+//    return divis;
+// }
+// let finalResult = division(4,2,2,5,3);
+// console.log(finalResult)
 
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 36 ==========
+Q:a2 + 2ab + b3
+create a formula by function?
 */
+// function formula(a,b){let num1 = a*a;
+//    let num2 = b*b*b;
+//    let result = num1 +(2*a*b)+ num2;
+//    console.log(result)
+// }
 
+// formula(2,4)
 
-
-
-/* ========== Question 2 ==========
-Q: 
-
+/* ========== Question 37 ==========
+Q: : Multiply array all index with each other by function?
 */
+// function practice(){let array = [2,4,6];
+//    console.log(array);
+//    let product= 1;
+//    for(let i = 0; i < array.length ; i++){product = product * array[i]}
+//    return product;
+// }
+// let finalResult = practice();
+// console.log(finalResult)
 
-
-
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 38 ==========
+Q:  Multiply array all index with each other by function?
 */
-
-
-
+// function multiplication(){let array = [2,3,4];
+//    let product = 1;
+//    for(let i = 0; i < array.length; i++){product = product * array[i]}
+//    return product;
+// }
+// let final = multiplication();
+// console.log(final)
 
 /* ========== Question 2 ==========
 Q: 
