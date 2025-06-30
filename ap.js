@@ -234,31 +234,102 @@ Q:  setFullYear(),setMonth( )etc
 // console.log(current);
 // // output = 676
 
-
-
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 14 ==========
+Q: Ask the user to enter a number (1 to 7) and print the corresponding day name.
 
 */
+// let enterDayNumber = parseFloat(prompt('enter day number'));
+// switch (enterDayNumber){case(1):console.log('sunday');
+//    break;
+//    case(2):console.log('Monday');
+//    break;
+//    case(3):console.log('Tuesday');
+//    break;
+//    case(4):console.log('Wednesday');
+//    break;
+//    case(5):console.log('Thursday');
+//    break;
+//    case(6):console.log('Friday');
+//    break;
+//    case(7):console.log('Saturday');
+//    break;
+//    default:console.log('invalid entry')
+// }
 
-
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 15 ==========
+Q:  Ask the user to input two numbers and an operator (+, -, *, /), then 
+perform the calculation using switch.
 */
+// let getNumberOne = Number(prompt('enter number 1'))
+// let getNumberTwo = Number(prompt('enter number 2'));
+// let getOperator = prompt('enter operator')
+
+// switch(getOperator){case('+'):
+//    console.log(getNumberOne + getNumberTwo);
+//    break;
+
+//    case('-'):
+//    console.log(getNumberOne - getNumberTwo);
+//    break;
+
+//    case('/'):
+//    console.log(getNumberOne / getNumberTwo);
+//    break;
+
+//    case('*'):
+//    console.log(getNumberOne * getNumberTwo);
+//    break;
+//    default:console.log('invalid entry')
+// }
 
 
 
-
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 16 ==========
+Q: Fruits Switch
+Ask the user to enter a fruit name and use switch to show a message:
+Mango: King of fruits
+Apple: Keeps doctor away
+Banana: Good source of potassium
+Default: I don’t know about that fruit.
 
 */
+// let fruitName = prompt('etner fruit name');
+// switch(fruitName){case('Mango'):
+//    console.log('King of fruits');
+//    break;
+//    case ('Apple'):console.log('keeps doctor away');
+//    break;
+//    case('Banana'):console.log('Good source of potassium');
+//    break;
+//    default:console.log('invalid entry')
+// }
 
-
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 17 ==========
+Q: Ask the user to enter a grade (A, B, C, D, F) and print a message like:
+A: Excellent
+B: Good
+C: Fair
+D: Poor
+F: Fail 
 */
+// let enterGrade = prompt('enter grade like A,B,C etc');
+// enterGrade = enterGrade.toUpperCase()
+// switch(enterGrade){case('A'):console.log('Excellent');
+//    break;
 
+//    case('B'):console.log('Good');
+//    break;
+
+//    case('C'):console.log('Fair');
+//    break;
+
+//    case('D'):console.log('poor');
+//    break;
+
+//    case('F'):console.log('failed');
+//    break;
+//    default:console.log('invalid entry')
+// }
 
 
 
