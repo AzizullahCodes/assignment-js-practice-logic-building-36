@@ -333,106 +333,199 @@ F: Fail
 
 
 
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 18 ==========
+Q:  Convert Input to Uppercase
+Description: Ask the user to enter their name, and display it in all 
+capital letters.
+Example Input: Azizullah
+Output: AZIZULLAH
 
 */
+// let enterName = prompt('enter your name ');
+// console.log(enterName);
+// enterName = enterName.toUpperCase();
+// console.log(enterName);
 
 
+/* ========== Question 19 ==========
+Q:  Extract First Name
+Input: "Azizullah Khan"
+Goal: Extract only the first name
+Hint: Use slice() or substring()
+📌 Expected Output: "Azizullah"
+*/
+// let name = 'Azizullah Khan';
+// let ind = name.indexOf('h');
+// console.log(ind);
+// let needed = name.slice(0,9);
+// console.log(needed);
 
-/* ========== Question 1 ==========
+/* ========== Question 20 ==========
+Q: xtract First Letter of Each Word
+Input: "Learn JavaScript Fast"
+Goal: Output should be "LJF"
+Hint: Use split() and charAt(0)
+📌 Expected Output: "LJF"
+
+*/
+// let input = 'Learn JavaScript Fast';
+// let first = input.charAt(0);
+// let indJ = input.indexOf('J');
+// let indF = input.indexOf('F');
+// let second = input.charAt(indJ);
+// let third = input.charAt(indF);
+// let result = first + second + third;
+// console.log(result)
+
+
+/* ========== Question 21 ==========
+Q:  Extract a Segment
+Objective: Extract the word "Frontend" from this sentence using substring().
+let text = "I am a Frontend Developer";
+*/
+// let text = 'I am a Frontend Developer';
+// let charF = text.indexOf('F');
+// let charD = text.indexOf('d');
+// let need = text.slice(charF,(charD+1));
+// console.log(need);
+/* ========== Question 22 ==========
+Q:  First and Last Character
+Question:
+Ask the user to enter a word. Show the first and last characters.
+Example Input:
+"OpenAI"
+Expected Output:
+"First: O, Last: I"
+*/
+// let word = 'OpenAI';
+// let indO = word.indexOf('O');
+// let indI = word.indexOf('I');
+// let first = word.charAt(indO)
+// let second = word.charAt(indI)
+// console.log(first);
+// console.log(second);
+
+/* ========== Question 23 ==========
 Q:  
+You are given a string. Write a JavaScript function that replaces 
+all occurrences of the letter "a" with "@" in the string.
+🧪 Example Input/Output
+Input:
+let str = "javascript is amazing";
+Output:
+"j@v@script is @m@zing"
 */
+// let str = 'javascript is amazing';
+// let need = str.replaceAll('a','@');
+// console.log(need)
 
-
-
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
-
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 24 ==========
+Q: math.round(),ceil, floor etc practice
 
 */
+// let number = 32.725;
+// // let result = Math.round(number);
+// // let result = Math.ceil(number);
+// let result = Math.floor(number);
+// console.log(result)
 
-
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 25 ==========
+Q: Random Name Picker
+Question:
+Create an array of 5 names. Use Math.random() to pick a random 
+name from the list and display it.
+Expected Output Example:
+Selected: Ali 
 */
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
+// let array = ['ali','hafiz','sabir','shakir','naveed'];
+// let random = Math.floor(Math.random()*array.length);
+// console.log(array);
+// console.log(random);
+// let result = array[random];
+// console.log(result)
+/* ========== Question 26 ==========
+Q: convert sring to number 
 
 */
+// let str = '87.667';
+// console.log(typeof str);
+// let result = +(str);
+// console.log(typeof result)
+// console.log(result);
 
-
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 27 ==========
+Q:covert number to string 
 */
+// let number = 323.7676;
+// console.log(number);
+// console.log(typeof number);
+// let result = String(number)
+// console.log(result);
+// console.log(typeof result);
 
 
-
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
-
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 28 ==========
+Q: controlling the length of decimal 
 
 */
-
-
-
-/* ========== Question 1 ==========
-Q:  
+// let num = 78.8976;
+// let result = num.toFixed(2);
+// console.log(result)
+/* ========== Question 29 ==========
+Q:  :
+Create a global variable named userName = "Ali" and a function 
+() that uses this variable to print:
+"Hello, Ali!"
+Expected Output:
+Hello, Ali!
 */
+// let userName = 'Ali';
+// function abc(){console.log('Hello ', userName)}
+// abc(userName)
 
 
 
+/* ========== Question 30 ==========
+Q: Local Variable in Function
+Question:
+Create a function called showAge() that declares a local variable 
+let age = 25 and logs it inside the function. Try to access age outside the function and see what happens.
+Expected Output (inside function):
+Age is 25
+Outside the function:
+*/
+// function showAge(){let age = 25;
+//    console.log(age);
+// }
+// showAge()
+// console.log(age)
 
-/* ========== Question 2 ==========
-Q: 
+/* ========== Question 31 ==========
+Q:  Local vs Global Conflict
+Question:
+Create a global variable let message = "Global Message"
+Then, inside a function showMessage(), declare a local variable 
+with the same name: let message = "Local Message"
+Print the message inside the function and also outside.
+*/
+// let message = 'Global Message';
+// function showMessage(){let message = 'Local Message';
+//    console.log(message);
+// }
+
+// showMessage();
+// console.log(message)
+
+/* ========== Question 32 ==========
+Q: Modify Global Variable in Function
+Question:
+Create a global variable count = 0.
+Create a function increaseCount() that adds 1 to count.
+Call the function three times and show the final value of count.
 
 */
-
+let count = 0;
+function increaseCount(){}
 
 /* ========== Question 1 ==========
 Q:  
