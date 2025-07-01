@@ -628,74 +628,182 @@ Q:  Multiply array all index with each other by function?
 // let final = multiplication();
 // console.log(final)
 
-/* ========== Question 2 ==========
+/* ========== Question 39 ==========
+Q: Create a function that reapeat given times the last character of str?
+
+*/
+// function repeating(){let str = 'hello';
+//    // let lastCharacter = str.charAt(str.length-1);
+//    // console.log(lastCharacter);
+//    // let result = lastCharacter.repeat(20);
+//    // console.log(result)
+//    let time = 5;
+//    let char = '';
+//    for(var i = 0; i < time ; i++){char = char + str.charAt(str.length-1) };
+//    return char;
+// }
+// let final = repeating();
+// console.log(final)
+
+
+/* ========== Question 40 ==========
+Q:  
+*/
+// let todoInput = document.getElementById('todo-Input');
+// let todoUl = document.getElementById('ul');
+// function addItem(){let li = document.createElement('li');
+//    let liContent = document.createTextNode(todoInput.value);
+//    li.appendChild(liContent);
+//    console.log(liContent);
+//    todoInput.value = '';
+//    todoInput.focus();
+//    todoUl.appendChild(li);
+//    let btn = document.createElement('button');
+//    let btnContent = document.createTextNode('Delete Item');
+//    btn.appendChild(btnContent);
+//    li.appendChild(btn);
+// }
+
+/* ========== Question 41 ==========
+Q: repeat any word of string by given time by loop
+
+*/
+// function repeating(){let str = 'Pakistan';
+//                  let lastCharacter = str.charAt(str.length-1);
+//                  console.log(lastCharacter);
+//                  let time = 5;
+//                  let result =0;
+//                  for(let i = 0; i < time; i++){result = lastCharacter.repeat(time)}
+//                  console.log(result);
+// }
+// repeating()
+/* ========== Question 42 ==========
+Q:  maskdata() by for loop and repeat:
+*/
+// Azizullah;
+// Az*****ah;
+// function masking(){let str = 'Azizullah';
+//    let fistPart = str.slice(0,2);
+//    console.log(fistPart);
+//    let last = str.slice(str.length-2);
+//    console.log(last);
+// let masker = '*';
+// let time = 5;
+// let output = 0;
+// for(let i = 0; i < time; i++){output = masker.repeat(time)}
+// console.log(output);
+// let final = fistPart + output + last;
+// console.log(final);
+
+// }
+// masking()
+
+/* ========== Question 43 ==========
 Q: 
 
 */
+// let menuBtn = document.getElementById('menu-btn');
+// let navLinks = document.getElementById('nav-links');
 
+// function toggleMenu(){navLinks.classList.toggle('show')}
 
-
-/* ========== Question 1 ==========
+/* ========== Question 44 ==========
 Q:  
 */
 
+// var btnEl  = document.getElementById('btn');
+// var num = 0;
+// var char = ['a','b','c','d','e','f']
+
+// function handleInc(){num++;
+//    console.log(char[num]);
+//    if(num === char.length){btnEl.disabled = true;}}
 
 
 
-/* ========== Question 2 ==========
+/* ========== Question 45 ==========
 Q: 
+ Repeat a Word
+Question:
+Ask the user to enter a word and a number.
+Repeat the word that number of times and show the result.
 
+Example Output:
+
+Input: "Hi", 3  
+Output: "HiHiHi"
 */
 
+// function repeating(){let word = document.getElementById('it').value;
+// let time = document.getElementById('it2').value;
+//  let output = (word + ' ').repeat(time);
+//  document.getElementById('ph').innerHTML = output;
+   
+// }
 
-/* ========== Question 1 ==========
-Q:  
+/* ========== Question 46 ==========
+Q:  Create a Line of Stars
+Question:
+Create a string of 10 stars (*) using .repeat() and log it in the console.
+Expected Output:
+**********
 */
+// function repeating(){let sign = document.getElementById('it').value;
+//    let time = document.getElementById('it2').value;
+//    let result = sign.repeat(time);
+//    document.getElementById('ph').textContent = result;
+// }
 
 
 
+/* ========== Question 47 ==========
+Q: Create a Box Pattern
+Question:
+Create a 5x5 square using *. Use .repeat() to create each row.
+Expected Output:
+*****
+*****
+*****
+*****
+*****
+*/
+// let sign = '*';
+// let time = 5;
 
-/* ========== Question 2 ==========
+// for(let i = 0; i<time ;i++){console.log(sign.repeat(time))
+   
+// }
+
+
+/* ========== Question 48 ==========
+Q:  Repeat for Countdown
+Question:
+Use a loop and .repeat() to show numbers counting down with repeated dashes.
+
+Expected Output:
+5 -----
+4 ----
+3 ---
+2 --
+1 - 
+*/
+// for(let i = 5 ; i >= 1; i--){console.log(i + ' ' + '-'.repeat(i))}
+
+
+
+/* ========== Question 49 ==========
 Q: 
+Create a right-angle triangle using *. Use a loop and .repeat().
+
+Expected Output:
+
+*
+**
+***
+****
+*****
 
 */
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
-
-
-
-/* ========== Question 1 ==========
-Q:  
-*/
-
-
-
-
-/* ========== Question 2 ==========
-Q: 
-
-*/
+// let sign = '*';
+// let time = 10;
+// for(let i = 1; i <= time; i++){console.log(i + ' ' + sign.repeat(i))}

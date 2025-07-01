@@ -1,9 +1,77 @@
 /* q no 7 */
-.pp{color:blue;
+/* .pp{color:blue;
 text-decoration: underline;}
 
 .class2{font-size: 70px;}
 /* q no 8 */
-.st{color:red;}
+/* .st{color:red;} */
 
-.st2{font-size: 60px;}
+/* .st2{font-size: 60px;} */ 
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+#menu-btn {
+  font-size: 18px;
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border-radius: 5px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
