@@ -807,3 +807,29 @@ Expected Output:
 // let sign = '*';
 // let time = 10;
 // for(let i = 1; i <= time; i++){console.log(i + ' ' + sign.repeat(i))}
+
+/* ========== Question 50 ==========
+Q:  Basic Paragraph Creation
+Question:
+Create a new paragraph element (<p>). Inside this paragraph, 
+add the text "This is a dynamically created paragraph." Finally, 
+append this paragraph to the <body> of the HTML document.
+
+Expected Output (HTML after execution):
+
+HTML
+
+<body>
+  <p>This is a dynamically created paragraph.</p>
+</body>
+
+*/
+let para = document.createElement('p');
+
+let paraText = document.createTextNode('This is dynamically created paragraph');
+para.appendChild(paraText);
+console.log(para);
+let body = document.createElement('body');
+body.appendChild(para);
+console.log(body)
+
